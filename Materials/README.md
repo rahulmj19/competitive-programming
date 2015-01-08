@@ -1,6 +1,7 @@
 Full Books
-----------
-Elementary Algorithms.pdf 
+==========
+Elementary Algorithms.pdf
+
 Introduction to Algorithms.pdf
 
 Dynamic Programming
