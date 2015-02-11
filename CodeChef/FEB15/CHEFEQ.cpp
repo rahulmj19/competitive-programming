@@ -4,22 +4,20 @@
 #include <cmath>
 #include <vector>
 using namespace std;
-//---+-+-+++
 int main() {
   int T;
   string S;
   cin >> T;
     for(int j=0; j<T; ++j) {
     cin >> S;
-    int corrections1 = 0, corrections2 = 0;
-    int corrections;
-    int len = S.length();
+    int corrections1 = 0,
+        corrections2 = 0,
+        corrections,
+        len = S.length();
     string ideal1, ideal2;
     for(int i=0; i<len; ++i) {
-    ideal1.append("-");
-    ideal1.append("+");
-    ideal2.append("+");
-    ideal2.append("-");
+    ideal1.append("-+");
+    ideal2.append("+-");
     }
     if(len == 1) corrections = corrections1 = 0;
     else {
